@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hireup</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css" integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="/images/logo.svg" alt="logo"></a>
+            <span>
+                <a href="index.html" id="home" class="link">Home</a>
+                <a href="company.html" id="company"class="link">Company</a>
+                <a href="browse.html" id="browse" class="link">Browse</a>
+                <a href="blogs.html" id="blogs" class="link">Blogs</a>
+            </span>
+            <span>
+                <a href="postjob.html">Post Job</a>
+                <button><a href="postjob.html" id="loginbtn">Login</a></button>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <div class="postjob-container">
+            <div class="postjob-form">
+                <form>
+                    <h2>Sign up</h2>
+                    <p id="form-p">Get started posting and applying for jobs</p>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><input type="email" id="input" title="Please fill out this field"></dd>
+                        <dt>Name</dt>
+                        <dd><input type="text" id="input" title="Please fill out this field"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" id="input" title="Please fill out this field"></dd>
+                        
+                    </dl>
+                    <label><input type="checkbox" class="largeCheck"> I consent to receive marketing emails.</label>
+                    <br>
+                    <label><input type="checkbox" class="largeCheck"> By creating an account, I agree to this website's <a href="#">privacy policy</a> and <a href="#">terms of service</a>
+                    </label>
+                    
+                    <button>Create an account</button>
+                    <hr width="80%" id="post-hr">
+                    <p id="form-p2">Already have an account?
+                        
+                        <a href="postjob.html">Log In</a></p>
+
+                </form>
+            </div>
+            <div class="postjob-right" id="signup-right">
+                <span class="company-modal job">
+                    <span class="company-modal-new">NEW</span>
+                    <span>
+                        Signup
+                    </span>
+                </span>
+                
+                    <h1>Welcome to <br>HireUP.</h1>
+                    <p class="signup-p">"It’s intuitive, functional, easy-to-setup and presents content in an interactive”.</p>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
