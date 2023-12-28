@@ -9,7 +9,7 @@
     <link rel="icon" href="/images/favicon.png">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.cssintegrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css" integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
     .current{
@@ -23,7 +23,7 @@
     <nav>
         <a href="index.html"><img src="/images/logo.svg" alt="logo"></a>
         <span>
-           <span  class="home"> <a href="index.html" class="link current underline">Home</a></span>
+           <span  class="home"> <a href="index.html" class="link current">Home</a></span>
             <a href="company.html" id="company"class="link">Company</a>
             <a href="browse.html" id="browse" class="link">Browse</a>
             <a href="blogs.html" id="blogs" class="link">Blogs</a>
@@ -35,7 +35,7 @@
     </nav>
 </header>
 <main>
-    <div class="container">
+    <div class="container animated-upward">
         <div id="leftPane">
             <span id="newTag"><span id="new">NEW</span>
             Stay connected to get upcoming jobs</span>
@@ -46,7 +46,7 @@
 
         </div>
     </div>
-    <div id="searchImage">
+    <div id="searchImage" class="animated-upward">
         <img src="/images/image1.webp" >
         <p>Work for <b>industry leading</b> global companies</p>
     </div>
@@ -68,7 +68,7 @@
             <button>See All Jobs</button>
         </div>
     </div>
-    <div class="cards-container">
+    <div class="cards-container animated-upward">
         <!-- card-1 -->
         <div class="cards">
             <div class="card-image">
@@ -227,16 +227,16 @@
         <div class="footer-info">
         <div>
             <h6>PAGES</h6>
-            <p>Home</p>
-            <p>About</p>
-            <p>Pricing</p>
-            <p>Jobs</p>
-            <p>Post a Job</p>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="company.html">About</a></p>
+            <p><a href="browse.html">Pricing</a></p>
+            <p><a href="browse.html">Jobs</a></p>
+            <p><a href="postjob.html">Post a Job</a></p>
         </div>
         <div>
             <h6>ACCOUNT</h6>
-            <p>Sign In</p>
-            <p>Sign Up</p>
+            <p><a href="postjob.html">Sign In</a></p>
+            <p><a href="singnup.html">Sign Up</a></p>
             <p>Reset Password</p>
             <p>User Account</p>
         </div>
@@ -267,6 +267,6 @@
         </div>
     </div>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

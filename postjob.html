@@ -42,12 +42,12 @@
                     <p id="form-p">Sign in to create and apply for jobs</p>
                     <dl>
                         <dt>Email</dt>
-                        <dd><input type="email"></dd>
+                        <dd><input type="email" id="userEmail"></dd>
                         <dt>Password</dt>
-                        <dd><input type="password"></dd>
+                        <dd><input type="password" id="userPwd"></dd>
 
                     </dl>
-                    <button>Login</button>
+                    <button onclick="verifyLogin()">Login</button>
                     <hr width="80%" id="post-hr">
                     <p id="form-p2">Don't have an account?
                         <a href="singnup.html">Sign Up</a></p>
@@ -77,16 +77,16 @@
             <div class="footer-info">
             <div>
                 <h6>PAGES</h6>
-                <p>Home</p>
-                <p>About</p>
-                <p>Pricing</p>
-                <p>Jobs</p>
-                <p>Post a Job</p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="company.html">About</a></p>
+                <p><a href="browse.html">Pricing</a></p>
+                <p><a href="browse.html">Jobs</a></p>
+                <p><a href="postjob.html">Post a Job</a></p>
             </div>
             <div>
                 <h6>ACCOUNT</h6>
-                <p>Sign In</p>
-                <p>Sign Up</p>
+                <p><a href="postjob.html">Sign In</a></p>
+                <p><a href="singnup.html">Sign Up</a></p>
                 <p>Reset Password</p>
                 <p>User Account</p>
             </div>
@@ -117,5 +117,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

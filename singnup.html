@@ -37,11 +37,11 @@
                     <p id="form-p">Get started posting and applying for jobs</p>
                     <dl>
                         <dt>Email</dt>
-                        <dd><input type="email" id="input" title="Please fill out this field"></dd>
+                        <dd><input type="email" class="input" title="Please fill out this field" id="userEmail"></dd>
                         <dt>Name</dt>
-                        <dd><input type="text" id="input" title="Please fill out this field"></dd>
+                        <dd><input type="text" class="input" title="Please fill out this field" id="userName"></dd>
                         <dt>Password</dt>
-                        <dd><input type="password" id="input" title="Please fill out this field"></dd>
+                        <dd><input type="password" class="input" title="Please fill out this field" id="userPwd"></dd>
                         
                     </dl>
                     <label><input type="checkbox" class="largeCheck"> I consent to receive marketing emails.</label>
@@ -49,7 +49,7 @@
                     <label><input type="checkbox" class="largeCheck"> By creating an account, I agree to this website's <a href="#">privacy policy</a> and <a href="#">terms of service</a>
                     </label>
                     
-                    <button>Create an account</button>
+                    <button id="signupBtn" onclick="signup()">Create an account</button>
                     <hr width="80%" id="post-hr">
                     <p id="form-p2">Already have an account?
                         
@@ -71,5 +71,7 @@
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
+
 </html>

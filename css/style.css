@@ -8,6 +8,7 @@ header{
     border-bottom: 0.1px solid #eaeaea;
     position: sticky;
     top: 0;
+    z-index: 33;
     background-color: #fff; 
 }
 
@@ -707,3 +708,53 @@ footer img {
     width: 60px;
     margin-bottom: 20px;
 }
+
+/* animation */
+@keyframes move-up {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animated-upward {
+    animation: move-up 1.5s ease forwards;
+  }
+
+@keyframes move-side {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .animated-side {
+    animation: move-side 1.5s ease forwards;
+  }
+@keyframes move-side-reverse {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .animated-side-reverse {
+    animation: move-side-reverse 1.5s ease backwards;
+  }
+
+  .footer-info a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+    
