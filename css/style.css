@@ -40,6 +40,15 @@ nav span button #loginbtn{
     margin: 0 auto;
 }
 
+.button{
+    background-color: #443fde;
+    border: none;
+    padding: 10px 12px;
+    }
+   .color {
+    color: white;
+    text-decoration: none;
+   }
 .container{
     display: flex;
     margin-top: 80px;
@@ -79,10 +88,10 @@ nav span button #loginbtn{
 #rightPane p{
     width: 89%;
 }
-#rightPane p a {
+/* #rightPane p a {
     text-decoration: none;
     color: #443fde;
-}
+} */
 #searchImage{
     margin-top: 100px;
     text-align: center;
@@ -107,13 +116,13 @@ nav span button #loginbtn{
    
 }
 #AllJobsLeft{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
 }
 #AllJobsRight{
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: end;
 }
@@ -121,13 +130,15 @@ nav span button #loginbtn{
 margin-top: 30px;
 margin-bottom: 30px;
 }
+
 #AllJobs div button{
     background-color: #443fde;
     color: #fff;
     border: none;
     padding: 12px;
     text-align: right;
-    margin-left: 400px;
+    margin-left: 200px;
+    /* margin-left: 400px; */
     
 }
 
