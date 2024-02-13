@@ -1,6 +1,6 @@
 let data ={
     email:'example@gmail.com',
-    pwd:'example'
+    pwd:'123'
 }
 document.getElementById("form").addEventListener('click',(function(e){
     e.preventDefault();
@@ -11,6 +11,7 @@ function verifyLogin(){
    let pwd= document.getElementById("userPwd").value
    console.log(email,pwd)
     if(data.email==email && data.pwd==pwd){
+        alert("Login Success!")
         location.href='index.html'
     }
 
